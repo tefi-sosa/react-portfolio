@@ -25,6 +25,10 @@ function SkillsSection() {
       img: "devicon-bootstrap-plain"
     },
     {
+      name: "Redux",
+      img: "devicon-redux-original"
+    },
+    {
       name: "NodeJs",
       img: "devicon-nodejs-plain"
     },
@@ -41,6 +45,18 @@ function SkillsSection() {
       img: "devicon-heroku-original"
     },
     {
+      name: "Firebase",
+      img: "devicon-firebase-plain"
+    },
+    {
+      name: "MongoDB",
+      img: "devicon-mongodb-plain"
+    },
+    {
+      name: "Figma",
+      img: "devicon-figma-plain"
+    },
+    {
       name: "Jest",
       img: "devicon-jest-plain"
     },
@@ -55,8 +71,11 @@ function SkillsSection() {
   })
 
   return (
-    <div className='icon-container' id="skills">
-      {map}
+    <div  id="skills">
+      <h1>Skills</h1>
+      <div className='icon-container'>
+       {map}                
+      </div>
     </div>
   )
 }

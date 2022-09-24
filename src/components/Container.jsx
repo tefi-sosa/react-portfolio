@@ -6,7 +6,7 @@ import SkillsSection from './SkillsSection'
 function Container() {
   return (
     <div className='container'>
-      <SkillsSection/>
+
     </div>
   )
 }
