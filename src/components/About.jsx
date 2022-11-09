@@ -9,11 +9,11 @@ function About() {
         {/* <img id="drone2" src={picture} alt=""></img> */}
       </div>
       <div className='title-typewrite'>
-        <h1 href="" class="typewrite" data-period="2000" data-type='[ "Hi, Im Estefanía Sosa!", "I Love to Develop!" ]'>
+        <h1 href="" class="typewrite" data-period="2000" data-type='[ "Hi, I am Estefanía Sosa!", "I Love to Develop!" ]'>
            <span class="wrap"> </span>
         </h1>
         <hr />
-        <p>Based in Salt Lake City. Software/web Developer, hiker and traveler. Whenever I'm not working on a project, you'll find me in the outdoors.</p>
+        <p>Based in Salt Lake City. Software/Web Developer, hiker and traveler. Whenever I'm not working on a project, you'll find me in the outdoors.</p>
       </div>
       <div className='contact-icons'>
         <a href='https://www.linkedin.com/in/estefania-sosa-70b63a1a8/' target="_blank" rel="noreferrer noopener"><i class="fa-brands fa-linkedin fa-xl"></i></a>

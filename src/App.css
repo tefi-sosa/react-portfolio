@@ -1,3 +1,5 @@
+
+
 html {
   width: 100vw;
 }
@@ -17,12 +19,52 @@ a {
   font-size: 1.2rem;
 }
 
+@keyframes slideInFromTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateY(10%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInFromTopPartial {
+  0% {
+    opacity: 0;
+    transform: translateY(-20%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 nav {
   background-color: rgba(11, 63, 75, 0.7);
   height: 55px;
   animation: 1s ease-out 0s 1 slideInFromTop;
 }
 
+.nav-link {
+  color: rgba(255,255,255,.8) !important;
+}
+
+.nav-link:hover {
+  color: rgba(255,255,255, 1) !important;
+}
 
 h1 {
   margin: 0px 0 20px 0;
@@ -72,6 +114,7 @@ section {
 
 .typewrite {
   font-size: 5rem;
+  min-height: 80px;
 }
 
 .title-typewrite {
@@ -84,10 +127,12 @@ p {
   font-size: 1.5rem;
 }
 
+
+
 .contact-icons {
   position: relative;
   margin-top: 30px;
-  animation: 1.5s ease-out 10s 1 slideInFromLeft;
+  animation: 2s ease-out 0s 1 slideInFromLeft;
   /* animation-delay: 2s; */
 }
 
@@ -139,7 +184,7 @@ p {
 #skills {
   display: flex;
   flex-direction: column;
-align-items: center;
+  align-items: center;
 }
 
 i {
@@ -208,10 +253,6 @@ i {
 .carousel-caption {
   background-color:#282c34d5;
   margin-bottom: 30px;
-}
-
-.carousel-item {
-  /* display: flex; */
 }
 
 .carousel-card {
@@ -329,35 +370,23 @@ form {
 }
 
 
-@keyframes slideInFromTop {
-  0% {
-    opacity: 0;
-    transform: translateY(-100%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 
-@keyframes slideInFromLeft {
-  0% {
-    opacity: 0;
-    transform: translateY(10%);
+@media only screen and (max-width: 600px) {
+  .typewrite {
+    font-size: 2rem;
+    min-height: 80px;
   }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 
-@keyframes slideInFromTopPartial {
-  0% {
-    opacity: 0;
-    transform: translateY(-20%);
+  .project-img {
+    width: 350px;
   }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
+
+  .education-row {
+    gap: 20px
   }
+
+  h4 {
+    font-size: 0.9rem;
+  }
+
 }

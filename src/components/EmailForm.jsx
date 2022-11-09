@@ -1,6 +1,5 @@
 import picture from './images/drone2.jpg'
 import React from 'react'
-import Footer from './Footer'
 
 function EmailForm() {
   const email = "estefi.monumental@gmail.com"
@@ -27,7 +26,7 @@ function EmailForm() {
         <div className="form-group">
           <textarea placeholder="Your Message" className="form-control" name="message" rows="10" required></textarea>
         </div>
-        <button type="submit" className="btn btn-lg btn-light btn-block">Submit Form</button>
+        <button type="submit" className="">Submit Form</button>
       </form>
     </div>
   )

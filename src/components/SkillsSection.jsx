@@ -37,6 +37,10 @@ function SkillsSection() {
       img: "devicon-python-plain"
     },
     {
+      name: "Sequelize",
+      img: "devicon-sequelize-plain"
+    },
+    {
       name: "PostgreSQL",
       img: "devicon-postgresql-plain"
     },
@@ -51,6 +55,10 @@ function SkillsSection() {
     {
       name: "MongoDB",
       img: "devicon-mongodb-plain"
+    },
+    {
+      name: "MySQL",
+      img: "devicon-mysql-plain"
     },
     {
       name: "Figma",
